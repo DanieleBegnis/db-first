@@ -1,0 +1,15 @@
+cars 
+
+id - PRIMARY_KEY(NOTNULL - AUTO_INCREMENT - UNIQUE)
+car_brand - VARCHAR(50) - NOTNULL
+model - VARCHAR(50) - NOTNULL
+year - YEAR - NOTNULL
+condition - VARCHAR(50) - NULL
+price - DECIMAL(8, 2) - NOTNULL
+description - TEXT - NULL
+kilometers - FLOAT(8, 2) - NULL
+fuel_type - VARCHAR(30) - NULL
+engine - VARCHAR(40) - NULL
+transmission - VARCHAR(20) - NULL
+
+
